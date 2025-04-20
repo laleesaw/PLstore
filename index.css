@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    /* width: 1920px; */
+    height: 120px;
+    color: aliceblue;
+    background-color: #00224D;
+    display: flex;
+    align-items: center;
+    
+}
+#PLstore_logo{
+    margin-left: 142px;
+    width: 218px;
+    height: 40px;
+}
+.order{
+    font-size: 1.5rem;
+    margin-left: 246px;
+    display: flex;
+    gap: 124px;
+}
+#all_order{
+    padding-left: 0px;
+}
+#gaming_gear{
+    padding-left: 0px;
+}
+#phone{
+    padding-left: 0px;
+}
+.manu{
+    display: flex;
+    margin-left: 156px;
+    gap: 41px;
+}
+
