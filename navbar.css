@@ -32,17 +32,35 @@ header{
     height: 120px;
     align-content: center;
     position:static;
+    list-style: none;
+    width: 200px;
+    text-align: center;
 }
 .show_order{
     display: none;
+    position: fixed;
 }
 #all_order:hover{
     .show_order{
-        position:fixed ;
+        /* position:relative ; */
+        margin-top: 46px;
         display:block;
         background-color: #FFFFFF;
         flex-direction: column;
+        color: #00224D;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     }
+}
+.show_order li{
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+}
+.show_order li:hover{
+    background-color: #00224D;
+    color: #f5f5f5;
 }
 
 #service{
