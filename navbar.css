@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: inter;
+    font-weight: 400;
 }
 body{
     background-color: #f5f5f5;

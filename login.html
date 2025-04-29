@@ -2,6 +2,7 @@
 <head>
     <title>login</title>
     <link rel = "stylesheet" href = "login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id = "navbar"></div>
@@ -10,19 +11,22 @@
             .then(res => res.text())
             .then(data => {document.getElementById("navbar").innerHTML = data;})
     </script>
+    <div class = "login_bar">
+    <div id = "login_with"></div>
+    <script>
+        fetch("/login_with.html")
+            .then(res => res.text())
+            .then(data => {document.getElementById("login_with").innerHTML = data;})
+    </script>
+    </div>
 
-    <div class = "user_login">
-        <div class = "login_with">
-            <ul id = "list_login">
-                <div class = "with_google"><li id = "google">Login with Google</li>
-                    <img id = "google_icon" src = "google_icon.png">
-                </div>
-                <li id = "facebook">Login with Facebook</li>
-                <li id = "apple">Login with Apple</li>
-            </ul>
-        </div>
+    <!-- <div class = "user_login">
         <div class = "login">
-    </div>
+            <h1>Login</h1>
+            <div class = "username">
+                <input type = "text" placeholder = "username">
+            </div>
+        </div>
 
-    </div>
+    </div> -->
 </body>

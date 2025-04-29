@@ -1,66 +1,53 @@
-.user_login{
+*{  font-family: inter;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+.login_bar{
+    position: absolute;
+    margin-left: 360px;
     margin-top: 126px;
-    display: flex;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .login h1{
     justify-content: center;
-}
-#list_login{
-    list-style: none;
-    margin-left: 37px;
-}
-#google{
-    margin-top: 119px;
-    padding-left: 15px;
-    padding-top: 28px;
-    background-color: #DB4437;
-    border-radius: 25px;
-    width: 371px;
-    height: 92px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 96px;
+    width: 357px;
+    height: 103px;
+    margin-left: 247px; 
     color: #FFFFFF;
 }
-#facebook{
-    margin-top: 34px;
-    padding-left: 15px;
-    padding-top: 28px;
-    background-color: #4267B2;
-    border-radius: 25px;
-    width: 371px;
+#username{
+    background-color: #5D0E41;
+    margin-top: 45px;
+    margin-left: 46px;
+    width: 529px;
     height: 92px;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-#apple{
-    margin-top: 34px;
-    padding-left: 15px;
-    padding-top: 28px;
-    background-color: #000000;
     border-radius: 25px;
-    width: 371px;
-    height: 92px;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-.login_with{
-    
-    border-radius: 50px;
-    background-color: #FF204E;
-    width: 600px;
-    height: 604px;
-}
-.login{
-    border-radius: 50px;
-    background-color: #00224D;
-    width: 600px;
-    height: 604px;
-}
-.with_google{
-    display: flex;
-    /* background-color: antiquewhite; */
-}
-#google_icon{
-    /* background-color:#4267B2; */
-    margin-left: 16px;
-    width: 150px;
-    height: 150px;
-    margin-top: 89px;
-}
+    padding-left: 32px;
+    font-size: 50px;
+} */
