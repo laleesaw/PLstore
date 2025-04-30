@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - PL Store</title>
+    <link rel="stylesheet" href="registration.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="registration-container">
+        <h1>REGISTRATION</h1>
+        <form>
+            <div class="name-row">
+                <input type="text" placeholder="FIRST NAME" required>
+                <input type="text" placeholder="LAST NAME" required>
+            </div>
+            <input type="email" placeholder="EMAIL ADDRESS" required>
+            <input type="password" placeholder="PASSWORD" required>
+            <input type="password" placeholder="CONFIRM PASSWORD" required>
+
+            <label class="dob-label">Date of Birth</label>
+            <div class="dob-row">
+                <select required>
+                    <option value="">Month</option>
+                    <!-- Add options here -->
+                </select>
+                <select required>
+                    <option value="">Day</option>
+                    <!-- Add options here -->
+                </select>
+                <select required>
+                    <option value="">Year</option>
+                    <!-- Add options here -->
+                </select>
+            </div>
+
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00224D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-container {
+    background-color: #3D1642;
+    padding: 40px;
+    border-radius: 20px;
+    width: 600px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.registration-container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name-row {
+    display: flex;
+    gap: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    background-color: #001A4D;
+    border: none;
+    color: #C0C0C0;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #C0C0C0;
+}
+
+.dob-label {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dob-row {
+    display: flex;
+    gap: 15px;
+}
+
+select {
+    appearance: none;
+    background-color: #001A4D;
+    color: #C0C0C0;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #FF4D6D;
+    border: none;
+    padding: 14px 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e63e5a;
+}
