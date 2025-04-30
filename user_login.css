@@ -1,0 +1,120 @@
+.user_login{
+  background-color: rgba(0, 34, 77, 0.85);
+  width: 604px;
+  height: 604px;
+  border-radius: 50px;
+}
+h1{
+  width: 357px;
+  height: 103px;
+  color: #FFFFFF;
+  font-size: 96px;
+  margin-left: 247px;
+  text-align: center;
+}
+#username input{
+  color: #FFFFFF;
+  padding-left: 32px;
+  font-size: 50px;
+  width: 529px;
+  height: 92px;
+  margin-left: 46px;
+  margin-top: 45px;
+  border-radius: 25px;
+  background-color: #5D0E41;
+}
+#password input{
+  color: #FFFFFF;
+  padding-left: 32px;
+  font-size: 50px;
+  width: 529px;
+  height: 92px;
+  margin-left: 46px;
+  margin-top: 45px;
+  border-radius: 25px;
+  background-color: #5D0E41;
+}
+.login_and_remember{
+  display: flex;
+}
+
+.remember{
+  margin-top: 20px;
+  margin-left: 46px;
+  height: 60px;
+  width: 135px;
+  /* background-color: aqua; */
+  display: flex;
+}
+.check{
+  display: none;
+}
+.label_checkbox{
+  margin-top: 10px;
+  background-color: #F5F5F5;
+  width: 135px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+}
+.label_checkbox::before{
+  /* margin-left: -30px; */
+  margin-top: -10px;
+  background-color: #5D0E41;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: absolute;
+  content: '';
+  transition: 1s;
+}
+.check:checked + .label_checkbox::before{
+  transform: translateX(75px);
+}
+
+.remember_bar p{
+  margin-left: 46px;
+  font-size: 30px;
+  font-family: inter;
+  color: #F5F5F5;
+}
+/* 
+
+.remember input{
+  display: none;
+} */
+
+
+
+
+.enter{
+  margin-left: 181.15px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #FF204E;
+  width: 213px;
+  height: 92px;
+  font-size: 55px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 12px;
+}
+.enter input{
+  display: none;
+}
+.register{
+  display: flex;
+  margin-top: 25px;
+}
+.register h3{
+  margin-left: 71px;
+  font-size: 24px;
+  color: #F5F5F5;
+  margin-top: 32px;
+}
+.register h2{
+  margin-left: 27px;
+  margin-top: 24px;
+  font-size: 32px;
+  color: #FF204E;
+}
