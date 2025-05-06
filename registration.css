@@ -91,3 +91,13 @@ button {
 button:hover {
     background-color: #e63e5a;
 }
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #00224D;
+    color: white;
+}
