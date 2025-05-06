@@ -2,31 +2,28 @@
 <head>
     <title>login</title>
     <link rel = "stylesheet" href = "login.css">
+    <link rel = "stylesheet" href = "user_login.css">
+    <link rel = "stylesheet" href = "login_with.css">
+    <link rel = "stylesheet" href = "enter_login.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id = "navbar"></div>
+    <div class = "content">
+        <div class = "login_bar">
+            <div id = "login_with"></div>
+            <div id = "user_login"></div>
+        </div>
+    </div>
     <script>
         fetch("/navbar.html")
             .then(res => res.text())
             .then(data => {document.getElementById("navbar").innerHTML = data;})
-    </script>
-    <div class = "login_bar">
-    <div id = "login_with"></div>
-    <script>
         fetch("/login_with.html")
             .then(res => res.text())
             .then(data => {document.getElementById("login_with").innerHTML = data;})
+        fetch("/user_login.html")
+            .then(res => res.text())
+            .then(data => {document.getElementById("user_login").innerHTML = data;})
     </script>
-    </div>
-
-    <!-- <div class = "user_login">
-        <div class = "login">
-            <h1>Login</h1>
-            <div class = "username">
-                <input type = "text" placeholder = "username">
-            </div>
-        </div>
-
-    </div> -->
 </body>

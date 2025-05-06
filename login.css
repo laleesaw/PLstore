@@ -8,10 +8,15 @@
     display: flex;
     z-index: 1;
 }
+.content{
+    display: flex;
+    justify-content: center;
+}
 .login_bar{
-    position: absolute;
-    margin-left: 360px;
     margin-top: 126px;
+    justify-content: center;
+    position: absolute;
+    display: flex;
     z-index: -1;
 }
 
@@ -30,24 +35,3 @@
 
 
 
-
-
-/* .login h1{
-    justify-content: center;
-    text-align: center;
-    font-size: 96px;
-    width: 357px;
-    height: 103px;
-    margin-left: 247px; 
-    color: #FFFFFF;
-}
-#username{
-    background-color: #5D0E41;
-    margin-top: 45px;
-    margin-left: 46px;
-    width: 529px;
-    height: 92px;
-    border-radius: 25px;
-    padding-left: 32px;
-    font-size: 50px;
-} */

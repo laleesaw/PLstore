@@ -1,5 +1,4 @@
 .login_with{
-    /* z-index: -1; */
     width: 600px;
     height: 604px;
 }
@@ -21,16 +20,14 @@
     margin-top: 314px;
     margin-left: 177px;
 }
-.user_login{
+/* .user_login{
     position: relative;
-    /* z-index: -1; */
     margin-top: 126px;
     display: flex;
     justify-content: center;
-}
+} */
 #list_login{
     position: relative;
-    /* z-index: 1; */
     list-style: none;
     margin-left: 37px;
 }
